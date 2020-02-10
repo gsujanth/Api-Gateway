@@ -1,0 +1,10 @@
+zuul:
+  sensitive-headers:
+  routes:
+    hello:
+      path: hello/**
+      serviceId: practice
+    employee:
+      path: employees/**
+      serviceId: practice
+  ignored-headers:
