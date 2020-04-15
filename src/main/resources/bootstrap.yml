@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
   profiles:
-    active: qa
+    active: dev
   cloud:
     config:
       name: config-server
