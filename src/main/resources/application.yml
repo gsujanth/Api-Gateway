@@ -1,10 +1,7 @@
 zuul:
-  sensitive-headers:
+  sensitive-headers: Cookie,Set-Cookie
   routes:
-    hello:
-      path: hello/**
-      serviceId: practice
-    employee:
-      path: employees/**
+    practice:
+      path: practice/**
       serviceId: practice
   ignored-headers:
